@@ -36,6 +36,6 @@ const DiagnosticReportSchema = new mongoose.Schema({
 //@ts-ignore
 mongoose.models = {};
 
-var DiagnosticReportsTable = mongoose.model("diagnostic-reports", DiagnosticReportSchema);
+var DiagnosticReportsTable = mongoose.model("report", DiagnosticReportSchema);
 
 module.exports = DiagnosticReportsTable;
