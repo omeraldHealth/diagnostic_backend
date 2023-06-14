@@ -71,6 +71,6 @@ const DiagnosticUserSchema = new mongoose.Schema({
     pathologistDetail: [IPathologistDetails],
 });
 
-var DiagnosticProfileTable = mongoose.model("diagnostic-profiles", DiagnosticUserSchema);
+var DiagnosticProfileTable = mongoose.model("profiles", DiagnosticUserSchema);
 
 module.exports = DiagnosticProfileTable;
